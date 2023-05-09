@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./js/login.js" defer></script>
+    <title>Campus AirLines</title>
+</head>
+
+<body>
+    <div id="mensaje">
+        <h1>Contraseña o email incorrecto</h1>
+    </div>
+    <div class="container-presentacion">
+        <div class="logo"></div>
+        <div class="container-login">
+            <form id="form-login" action="">
+                <h1>Iniciar Sesion</h1>
+                <input class="drop-shadow-xl" type="email" name="email" id="" placeholder="Digite tu email" required>
+                <input class="drop-shadow-xl" type="password" name="password" placeholder="Digite tu contraseña "
+                    required>
+                <input class="bt-login" type="submit" value="Ingresar">
+                <div>
+                    <span>No tienes cuenta? </span><span id="Registrarse" class="Registrarse">Registrarse</span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <nav>
+            <a href="./compra.html">Vuelos</a>
+        </nav>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(109, 130, 160);
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+#mensaje {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    width: 100%;
+    padding: 1vw 0;
+    text-align: center;
+    margin: 0;
+}
+
+.container-presentacion {
+    display: flex;
+    margin: 2vw;
+    padding: 1vw;
+    height: 55vw;
+    gap: 3vw;
+    align-items: center;
+}
+
+.container-presentacion .logo {
+    width: 50%;
+}
+
+.container-login {
+    width: 50%;
+    padding: 10vw 0;
+}
+
+.container-login form {
+    display: flex;
+    flex-direction: column;
+    gap: .6vw;
+}
+
+.container-login form h1 {
+    font-size: 3vw;
+    font-weight: bolder;
+}
+
+.container-login form input {
+    padding: .4vw;
+    border: solid transparent;
+}
+
+nav {
+    background-color: aquamarine;
+    display: flex;
+    height: 5vw;
+    border: solid transparent;
+    border-radius: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    background-color: rgb(13, 138, 96);
+    padding: .8vw;
+    border: solid transparent;
+    border-radius: 1vw;
+}
+
+
+.container-login form .bt-login {
+    justify-self: left;
+    width: 20vw;
+    background: #f3f3f3;
+    border: solid transparent;
+    border-radius: 1vw;
+}
+
+.container-login form .bt-login:hover {
+    transition: all;
+    transition-duration: .2s;
+    background: #8d8787c9;
+    border-radius: 1.5vw;
+}
+
+.container-login form div .Registrarse:hover {
+    transition: all;
+    transition-duration: .1s;
+    text-decoration: underline;
+    color: #3e0341;
+}
+
+.container-temp {
+    display: flex;
+    margin: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-temp #form-login {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: .7vw;
+    width: 30vw;
+    border: solid transparent;
+}
+
+.container-dato-vuelo {
+    display: flex;
+    justify-content: center;
+}
+
+.container-dato-vuelo #form-vuelo {
+    display: flex;
+    gap: .8vw;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.container-dato-vuelo #form-vuelo h2 {
+    background-color: antiquewhite;
+    border: solid transparent;
+    border-radius: 1vw;
+    margin: .1vw;
+    font-weight: bold;
+
+}
+
+header {
+    background-color: antiquewhite;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 4vw;
+    font-weight: bolder;
+    margin: .8vw;
+}

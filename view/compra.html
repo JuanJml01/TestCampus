@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de ticket</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./js/compra.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Vuelos</h1>
+    </header>
+    <div class="container-temp" id="c-temp">
+        <form id="form-login">
+            <input class="drop-shadow" name="nombre" type="text" id="" placeholder="Ingrese nombres" required>
+            <input class="drop-shadow" name="apellido" type="text" id="" placeholder="Ingrese sus apellidos" required>
+            <input class="drop-shadow" name="email" type="email" id="" placeholder="Emaill" required>
+        </form>
+    </div>
+    <main>
+        <div class="container-dato-vuelo">
+            <form id="form-vuelo">
+                <select name="ciudad_origen" id="select-origen">
+                    <option value="defecto">Seleccione ciudad de destino</option>
+                </select>
+                <select name="ciudad_destino" id="select-destino">
+                    <option value="defecto">Seleccione ciudad de destino</option>
+                </select>
+                <h2>Valor: $</h2>
+                <h2>Valor total: $</h2>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

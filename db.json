@@ -1,0 +1,68 @@
+{
+    "cliente": [
+        {
+            "Nid": "120124",
+            "nombre": "Juan ",
+            "apellido": "Montes",
+            "telefono": "123423523512",
+            "fecha_nacimiento": "2004-03-13",
+            "pais_origen": "Colombia",
+            "email": "juan@gmail.com",
+            "password": "j123",
+            "id": 1
+        }
+    ],
+    "rutas_areas": [
+        {
+            "id": 1,
+            "nombre": "Bucaramanga-bogota",
+            "ciudad_origen": "Bucaramanga",
+            "ciudad_destino": "Bogota",
+            "total_millas": 200000,
+            "valor_millas": 813
+        },
+        {
+            "id": 3,
+            "nombre": "Bucaramanga-medellin",
+            "ciudad_origen": "Bucaramanga",
+            "ciudad_destino": "Medellin",
+            "total_millas": 240000,
+            "valor_millas": 720
+        },
+        {
+            "id": 4,
+            "nombre": "Bogota-medellin",
+            "ciudad_origen": "Bogota",
+            "ciudad_destino": "Medellin",
+            "total_millas": 240000,
+            "valor_millas": 720
+        },
+        {
+            "id": 5,
+            "nombre": "Medellin-Bogota",
+            "ciudad_origen": "Medellin",
+            "ciudad_destino": "Bogota",
+            "total_millas": 240000,
+            "valor_millas": 720
+        },
+        {
+            "id": 6,
+            "nombre": "Bogota-Bucaramanga",
+            "ciudad_origen": "Bogota",
+            "ciudad_destino": "Bucaramanga",
+            "total_millas": 240000,
+            "valor_millas": 720
+        },
+        {
+            "id": 7,
+            "nombre": "Medellin-Bucaramanga",
+            "ciudad_origen": "Medellin",
+            "ciudad_destino": "Bucaramanga",
+            "total_millas": 240000,
+            "valor_millas": 720
+        }
+    ],
+    "aeronaves": {},
+    "historial_compras": {},
+    "empleados": {}
+}
